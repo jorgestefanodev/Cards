@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family= Lexend +Deca & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Big+Shoulders+Display:wght@700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --cor-sedans: hsl(31, 77%, 52%);
+    --cor-suvs: hsl(184, 100%, 22%);
+    --cor-luxury: hsl(179, 100%, 13%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Containers */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 30rem;
+}
+
+.sedans {
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-direction: column;
+    background-color: var(--cor-sedans);
+    height: 30rem;
+    width: 20rem;
+    padding: 20px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.suvs {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--cor-suvs);
+    height: 30rem;
+    width: 20rem;
+    padding: 20px;
+}
+
+.luxury {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--cor-luxury);
+    height: 30rem;
+    width: 20rem;
+    padding: 20px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+/* Estilos Sedans */
+
+.sedan-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+}
+
+.sedan-paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+   
+}
+
+.sedan-paragrafo p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.7rem;    
+}
+
+
+.sedan-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+
+.sedan-botao button{
+    background-color: white;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--cor-sedans);
+    font-weight: 700;
+    transition: 0.45s;
+}
+
+.sedan-botao button:hover {
+    background-color: var(--cor-sedans);
+    border: 1px solid white;
+    color: white;
+    cursor:pointer;
+}
+
+/* Estilos Suvs */
+
+.suvs-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+}
+
+.suvs-paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+   
+}
+
+.suvs-paragrafo p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.7rem;    
+}
+
+
+.suvs-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+
+.suvs-botao button{
+    background-color: white;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--cor-suvs);
+    font-weight: 700;
+    transition: 0.45s;
+}
+
+.suvs-botao button:hover {
+    background-color: var(--cor-suvs);
+    border: 1px solid white;
+    color: white;
+    cursor:pointer;
+}
+
+/* Estilos Luxury */
+
+.luxury-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+}
+
+.luxury-paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+   
+}
+
+.luxury-paragrafo p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.7rem;    
+}
+
+
+.luxury-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+
+.luxury-botao button{
+    background-color: white;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--cor-luxury);
+    font-weight: 700;
+    transition: 0.45s;
+}
+
+.luxury-botao button:hover {
+    background-color: var(--cor-luxury);
+    border: 1px solid white;
+    color: white;
+    cursor:pointer;
+}
